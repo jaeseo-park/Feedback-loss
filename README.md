@@ -17,6 +17,9 @@ We will additionally optimize for another 2stage pose estimator.
 - git clone https://github.com/jaeseo-park/simple-HRNet
 - And, in this simple-HRNet, replace the 'models/detectors/yolo' folder with the git code below.
 - git clone https://github.com/jaeseo-park/PyTorch-YOLOv3
+- https://github.com/jaeseo-park/Feedback-loss/blob/master/train_feedback.py
+- Download https://github.com/jaeseo-park/Feedback-loss/blob/master/models_feedback.py and https://github.com/jaeseo-park/Feedback-loss/blob/master/train_feedback.py and put them in the 'yolo' folder.
+
 
 
 **Train**
