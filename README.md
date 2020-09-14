@@ -31,4 +31,4 @@ $ python train_feedback.py --data_config config/coco.data  --pretrained_weights 
 
 **Try**
 
-- Follow the Simple-HRNet readme(https://github.com/jaeseo-park/simple-HRNet/blob/master/README.md)
+- Follow the Simple-HRNet's readme(https://github.com/jaeseo-park/simple-HRNet/blob/master/README.md)
