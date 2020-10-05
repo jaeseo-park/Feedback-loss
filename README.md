@@ -26,7 +26,7 @@ We will additionally optimize for another 2stage pose estimator.
 
 
 
-In 'models/detectors/yolo'
+At folder'models/detectors/yolo' in pose estimator(simple-HRNet, for now)
 
 ```
 $ python train_feedback.py --data_config config/coco.data  --pretrained_weights weights/darknet53.conv.74
@@ -41,8 +41,6 @@ $ python train_feedback.py --data_config config/coco.data  --pretrained_weights 
 
 
 
-
-
 **Run Analyze**
 
 - Make result json file of COCO format
@@ -51,10 +49,7 @@ $ python scripts/json_keypoints.py --foldername "/PATH/MS-COCO2017/images/val201
 ```
 
 
-
-
 - And, follow the COCO-Analyze's readme(https://github.com/matteorr/coco-analyze)
-
 
 ```
 $ python run_analysis.py /PATH/person_keypoints_val2017.json /PATH/keypoint-results.json /PATH/hrnet_w48_test/ FeedbackLossKeypoints 1.0
