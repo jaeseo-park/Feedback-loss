@@ -35,3 +35,20 @@ $ python train_feedback.py --data_config config/coco.data  --pretrained_weights 
 **Try**
 
 - Follow the Simple-HRNet's readme(https://github.com/jaeseo-park/simple-HRNet/blob/master/README.md)
+
+
+
+**Run Analyze**
+
+- Make result json file of COCO format
+```
+$ python scripts/json_keypoints.py --foldername "/PATH/MS-COCO2017/images/val2017/"
+```
+
+
+- And, follow the COCO-Analyze's readme(https://github.com/matteorr/coco-analyze)
+
+
+```
+$ python run_analysis.py /PATH/person_keypoints_val2017.json /PATH/keypoint-results.json /PATH/hrnet_w48_test/ FeedbackLossKeypoints 1.0
+```
