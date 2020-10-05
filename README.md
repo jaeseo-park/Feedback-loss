@@ -25,6 +25,7 @@ We will additionally optimize for another 2stage pose estimator.
 **Train**
 
 
+
 In 'models/detectors/yolo'
 
 ```
@@ -32,9 +33,13 @@ $ python train_feedback.py --data_config config/coco.data  --pretrained_weights 
 ```
 
 
+
 **Try**
 
 - Follow the Simple-HRNet's readme(https://github.com/jaeseo-park/simple-HRNet/blob/master/README.md)
+
+
+
 
 
 
@@ -44,6 +49,8 @@ $ python train_feedback.py --data_config config/coco.data  --pretrained_weights 
 ```
 $ python scripts/json_keypoints.py --foldername "/PATH/MS-COCO2017/images/val2017/"
 ```
+
+
 
 
 - And, follow the COCO-Analyze's readme(https://github.com/matteorr/coco-analyze)
